@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202C36;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #2B3844;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    background-color: #2B3844;
+    border: none;
+    padding: 12px;
+    width: 400px;
+    margin: 30px 0;
+    color: white;
+    border-radius: 7px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.country li {
+    margin: 5px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.germany a {
+    background-color: #2B3844;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.germany .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.germany-header {
+    margin-bottom: 50px;
+}
+
+.germany img {
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    form {
+        text-align: center;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .countries {
+        justify-content: center;
+    }
+}
